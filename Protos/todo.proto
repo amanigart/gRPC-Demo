@@ -53,13 +53,13 @@ message GetAllResponse {
 // Update
 message UpdateToDoRequest {
     int32 id = 1;
+    string title = 2;
+    string description = 3;
+    string to_do_status = 4;
 }
 
 message UpdateToDoResponse {
     int32 id = 1;
-    string title = 2;
-    string description = 3;
-    string to_do_status = 4;
 }
 
 // Delete
